@@ -50,54 +50,55 @@ const Home = () => {
                         </button>
                     </div>
                 </div>
-
-                <div className="flex space-x-8 justify-center pt-32 ">
-                    <Image
-                        src="https://cdn.prod.website-files.com/6649b8d638cfeb3d82c1fd2c/6649bab9a73f80796b2a2508_blog-1.jpg"
-                        alt="Photo"
-                        className="rounded-2xl h-auto w-[350px] hover:scale-110  duration-300"
-                        ButtonText="trevel"
-                        date=" 2 may 2023"
-                        description="Top 10 trusted brands for amazing" />
-                    <Image
-                        src="https://cdn.prod.website-files.com/6649b8d638cfeb3d82c1fd2c/6649bac95c591d010fdd6d9b_blog-2.jpg"
-                        alt="Photo"
-                        className="rounded-2xl h-auto w-[350px]  hover:scale-110  duration-300"
-                        ButtonText="Entertainment"
-                        date=" 2 may 2023"
-                        description="These are clothes that you must" />
-                </div>
-                <div className="flex justify-center pt-8">
-                    <Image
-                        src="	https://cdn.prod.website-files.com/6649b8d638cfeb3d82c1fd2c/6649baf3fa71fe56c678baaf_blog-3.jpg"
-                        alt="Photo"
-                        className="rounded-2xl  w-[720px] h-[400px]  hover:scale-110  duration-300"
-                        ButtonText="Lifestyle"
-                        date="2 may 2023 "
-                        description="How to update for the latest" />
-                </div>
-                <div className="flex space-x-8 justify-center pt-32 ">
-                    <Image
-                        src="https://cdn.prod.website-files.com/6649b8d638cfeb3d82c1fd2c/6649bb8c059fcc8f08336282_blog-4.jpg"
-                        alt="Photo"
-                        className="rounded-2xl h-auto w-[350px] hover:scale-110  duration-300"
-                        ButtonText="trevel"
-                        date=" 2 may 2023"
-                        description="How to choose clothes according" />
-                    <Image
-                        src="https://cdn.prod.website-files.com/6649b8d638cfeb3d82c1fd2c/6649bbe24e335c99d645f454_blog-5.jpg"
-                        alt="Photo"
-                        className="rounded-2xl h-auto w-[350px]  hover:scale-110  duration-300"
-                        ButtonText="Business"
-                        date=" 2 may 2023"
-                        description="Add these clothes for your next" />
-                </div>
-                <div className="bg-white w-[720px] mt-10  h-[220px] rounded-3xl pl-10  flex place-self-center ">
+                <div >
+                    <div className="sm:flex flex-none sm:space-x-8 ml-2 place-content-center pt-32 ">
+                        <Image
+                            src="https://cdn.prod.website-files.com/6649b8d638cfeb3d82c1fd2c/6649bab9a73f80796b2a2508_blog-1.jpg"
+                            alt="Photo"
+                            className="rounded-2xl h-auto w-[350px] hover:scale-110  duration-300"
+                            ButtonText="trevel"
+                            date=" 2 may 2023"
+                            description="Top 10 trusted brands for amazing" />
+                        <Image
+                            src="https://cdn.prod.website-files.com/6649b8d638cfeb3d82c1fd2c/6649bac95c591d010fdd6d9b_blog-2.jpg"
+                            alt="Photo"
+                            className="rounded-2xl h-auto w-[350px]  hover:scale-110  duration-300"
+                            ButtonText="Entertainment"
+                            date=" 2 may 2023"
+                            description="These are clothes that you must" />
+                    </div>
+                    <div className="flex pl-2 sm:justify-center pt-8">
+                        <Image
+                            src="	https://cdn.prod.website-files.com/6649b8d638cfeb3d82c1fd2c/6649baf3fa71fe56c678baaf_blog-3.jpg"
+                            alt="Photo"
+                            className="rounded-2xl  sm:w-[720px] h-[400px] w-fit hover:scale-110  duration-300"
+                            ButtonText="Lifestyle"
+                            date="2 may 2023 "
+                            description="How to update for the latest" />
+                    </div>
+                    <div className=" sm:space-x-8 sm:flex flex-none ml-3  justify-center pt-32 ">
+                        <Image
+                            src="https://cdn.prod.website-files.com/6649b8d638cfeb3d82c1fd2c/6649bb8c059fcc8f08336282_blog-4.jpg"
+                            alt="Photo"
+                            className="rounded-2xl h-auto w-[350px] hover:scale-110  duration-300"
+                            ButtonText="trevel"
+                            date=" 2 may 2023"
+                            description="How to choose clothes according" />
+                        <Image
+                            src="https://cdn.prod.website-files.com/6649b8d638cfeb3d82c1fd2c/6649bbe24e335c99d645f454_blog-5.jpg"
+                            alt="Photo"
+                            className="rounded-2xl h-auto w-[350px]  hover:scale-110  duration-300"
+                            ButtonText="Business"
+                            date=" 2 may 2023"
+                            description="Add these clothes for your next" />
+                    </div>
+                    </div>
+                <div className="bg-white w-fit p-10 sm:w-[720px] mt-10    sm:h-[220px] rounded-3xl  place-self-center flex justify-center">
 
                     <div className="flex flex-col justify-center">
-                        <h2 className="text-[36px] pt-2  text-[#e43c13]">Subscribe to new posts
+                        <h2 className="sm:text-[36px] pt-2  text-[25px] text-[#e43c13]">Subscribe to new posts
                         </h2>
-                        <div className=" w-full mx-auto text-center">
+                        <div className=" w-full mx-auto place-content-center text-center">
 
                             <div className="mt-8 bg-white flex items-center sm:p-4 p-2 max-w-xl mx-auto rounded-2xl border border-[#e43c13] " >
                                 <input type="email" placeholder="Enter your email" className="w-full bg-transparent py-2  text-gray-800 text-base placeholder:text-[#e43c13] border-none outline-none" />
@@ -110,7 +111,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className= "  flex w-[720px] justify-between place-self-center pt-24 text-[#e43c13] ">
+                <div className=" sm:flex   sm:w-[720px]  sm:justify-between place-self-center pt-24 text-[#e43c13] ">
 
                     <ul className="text-2xl">
                         <li >  <a href="">Home</a> </li>
@@ -133,7 +134,7 @@ const Home = () => {
                             <span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWK7U1qR8TSAuBf4OEb-SerRUliMZK3OwOeg&s" className="w-7" alt="" /></span></li>
                     </ul>
                 </div>
-                <div className="place-self-center pt-5 ">
+                <div className="place-self-center pt-5 pb-10">
                     <p className="text-[#e43c13]">© All rights reserved by <span className="border-b-2 border-[#e43c13]">Flowsark.</span> </p>
                     <p className="text-[#e43c13]">Powered by <a href="" className="border-b-2 border-[#e43c13]"> Webflow.</a></p>
                 </div>

@@ -2,7 +2,7 @@
 const NavBar = () => {
     return (
         <>
-            <div className="">
+            {/* <div className="">
                 <div className="flex  bg-[#ECE9E2]">
                     <div className="pt-10 pl-10">
                         <a href="">   <img src="https://cdn.prod.website-files.com/6649a073ce571a7f8882641d/66520df92e7578426e374ed7_BlogMin.svg" alt="logo" /></a>
@@ -19,7 +19,7 @@ const NavBar = () => {
                         <button className="bg-[#e43c13] rounded-[100px] text-[16px] text-center px-6 py-[14px]  hover:bg-white hover:text-[#e43c13] text-white" >Subscribe</button>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
