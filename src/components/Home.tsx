@@ -74,7 +74,7 @@ const Home = () => {
                         <Image
                             src="https://cdn.prod.website-files.com/6649b8d638cfeb3d82c1fd2c/6649baf3fa71fe56c678baaf_blog-3.jpg"
                             alt="Photo"
-                            className="rounded-2xl sm:w-[720px] sm:h-[400px] w-fit hover:scale-110 duration-300 transform-3d"
+                            className="rounded-2xl sm:w-[720px] sm:h-[450px] w-fit hover:scale-110 duration-300 transform-3d"
                             ButtonText="Lifestyle"
                             date="2 may 2023"
                             description="How to update for the latest"

@@ -1,6 +1,6 @@
 import Button from "./button";
 
-const Image = ({ src, alt, description, date, ButtonText ,className}: { src: string, alt: string, description: string, date: string, ButtonText: string ,className:string}) => {
+const Image = ({ src, alt, description, date, ButtonText ,className}: { src: string, alt: string, description?: string, date: string, ButtonText: string ,className:string}) => {
     return (
         <div className="image-container">
             <div className="image-wrapper text-[#e43c13]  relative">

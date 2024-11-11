@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <>
 
-            <div className=" sm:flex sm:flex-auto mx-2  flex  space-x-5   place-content-center sm:space-x-10 md:space-x-20 place-self-center pt-24 text-[#e43c13] ">
+            <div className=" sm:flex sm:flex-auto mx-2  flex  bottom-0 space-x-5   place-content-center sm:space-x-10 md:space-x-20 place-self-center pt-24 text-[#e43c13] ">
 
                 <ul className="text-2xl">
                     <li >  <a href="">Home</a> </li>

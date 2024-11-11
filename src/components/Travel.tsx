@@ -1,8 +1,14 @@
+import { Outlet } from "react-router-dom"
 import Image from "../commoncom/image"
+import BlogNav from "../commoncom/BlogNav"
 
 
 const Travel = () => {
-    return (
+    return (<>
+    <div>
+        <BlogNav
+        Title="Travel"/>
+    </div>
         <div>
             <Image
                 src="https://cdn.prod.website-files.com/6649b8d638cfeb3d82c1fd2c/6649bab9a73f80796b2a2508_blog-1.jpg"
@@ -13,7 +19,9 @@ const Travel = () => {
                 description="Top 10 trusted brands for amazing"
             />
         </div>
-    )
+        <Outlet />
+    </>)
+
 }
 
 export default Travel
