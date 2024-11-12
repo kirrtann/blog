@@ -18,7 +18,7 @@ const Footer = () => {
                     <li>Changelog</li>
 
                 </ul>
-                <ul>
+                <ul className="">
                     <li><button className="text-[#e43c13] bg-white rounded-3xl px-5 py-2 hover:bg-[#e43c13] hover:text-white ">Become a Subscribe</button></li>
                     <li>Get updates delivered to your inbox.</li>
                     <li className="flex space-x-3 pt-7"><span><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/600px-Instagram_logo_2022.svg.png" className="w-7" alt="" /></span>
